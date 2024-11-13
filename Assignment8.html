@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var arr3=prompt("Enter an array: " [3,5,10,15,23,22,25,35,56]);
+var result=[];
+//op: [5,10,15,25,35]
+for (i in arr3){
+  if(arr3[i]%5==0)
+   result.push(arr3[i])
+
+  }
+alert(result)
+
+
+
+var arr=["htmL","csS","javascrIPT","react","angulaR","nodE","EXPREss"]
+var arr1=[];
+for (o in arr){
+  if(arr[o].at(-1)==arr[o].at(-1).toUpperCase()){
+    arr1[arr1.length]=arr[o]
+  }
+}
+console.log(arr1)
+
+
+var arr2 = ["html", "css", "js", "react", "angular"];
+var result = [];
+
+for (var i of arr2) {
+    if (i === "html" || i === "js" || i === "angular") {
+        result.push(i.toUpperCase());
+    }
+}
+console.log(result); 
+  </script>
+</body>
+</html>
